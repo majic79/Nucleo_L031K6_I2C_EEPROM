@@ -10,8 +10,7 @@
 #define MONITOR_BAUD 115200
 
 Program::Program()
-    : userLed(LED_GPIO_PORT, LED_PIN), debug(MONITOR_BAUD), i2c()
-    
+    : userLed(LED_GPIO_PORT, LED_PIN), debug(MONITOR_BAUD), i2c()   
 {
     // Any other construction
 }
